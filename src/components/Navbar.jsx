@@ -22,6 +22,10 @@ function Navbar() {
         {" "}
         <NavLink to={"/register"}>Register</NavLink>
       </li>
+      <li>
+        {" "}
+        <NavLink to={"/orders"}>Orders</NavLink>
+      </li>
     </>
   );
   return (
